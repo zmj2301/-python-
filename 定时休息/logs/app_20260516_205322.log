@@ -1,0 +1,45 @@
+[20:53:22] [INFO] [logger.py:34] ============================================================
+[20:53:22] [INFO] [logger.py:35] 日志系统初始化完成，日志文件: e:\coding-zhou\Python\定时休息\logs\app_20260516_205322.log
+[20:53:22] [INFO] [logger.py:36] Python 版本: 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]
+[20:53:22] [INFO] [logger.py:37] 系统平台: win32
+[20:53:22] [INFO] [logger.py:38] ============================================================
+[20:53:22] [INFO] [main.py:9] 应用启动
+[20:53:23] [INFO] [app.py:75] 初始化App...
+[20:53:23] [INFO] [app.py:102] 读取设置: 工作=1分钟, 休息=5分钟
+[20:53:23] [DEBUG] [app.py:112] 连接信号...
+[20:53:23] [DEBUG] [app.py:123] 信号连接完成
+[20:53:23] [INFO] [app.py:66] 会话监控已启动 (OpenInputDesktop 方式)
+[20:53:23] [INFO] [app.py:93] 显示倒计时窗口
+[20:53:23] [INFO] [main.py:11] 进入主事件循环
+[20:53:30] [INFO] [app.py:137] 用户点击开始
+[20:53:30] [INFO] [app.py:126] 状态改变: TimerState.WORKING
+[20:53:32] [DEBUG] [app.py:158] 显示设置对话框
+[20:53:33] [DEBUG] [app.py:163] 设置被用户接受
+[20:53:33] [INFO] [app.py:107] 保存设置: 工作=1分钟, 休息=5分钟
+[20:54:30] [INFO] [app.py:169] 工作时间结束
+[20:54:30] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:54:32] [INFO] [app.py:126] 状态改变: TimerState.LOCKED
+[20:54:34] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:54:34] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.LOCKED
+[20:54:34] [WARNING] [app.py:187] 休息期间强制解锁，立即重新锁屏！
+[20:54:34] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:54:44] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:54:44] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.LOCKED
+[20:54:44] [WARNING] [app.py:187] 休息期间强制解锁，立即重新锁屏！
+[20:54:45] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:56:13] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:56:13] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.LOCKED
+[20:56:13] [WARNING] [app.py:187] 休息期间强制解锁，立即重新锁屏！
+[20:56:13] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:56:15] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:56:15] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.LOCKED
+[20:56:15] [WARNING] [app.py:187] 休息期间强制解锁，立即重新锁屏！
+[20:56:16] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:57:50] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:57:50] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.LOCKED
+[20:57:50] [WARNING] [app.py:187] 休息期间强制解锁，立即重新锁屏！
+[20:57:50] [INFO] [app.py:24] 调用Windows API锁定屏幕
+[20:59:32] [INFO] [app.py:126] 状态改变: TimerState.BREAK_DONE
+[20:59:32] [INFO] [app.py:175] 休息时间结束
+[20:59:36] [WARNING] [app.py:52] 检测到桌面解锁事件
+[20:59:36] [WARNING] [app.py:185] 检测到会话解锁事件，当前状态: TimerState.BREAK_DONE
