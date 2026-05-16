@@ -1,0 +1,76 @@
+[11:34:10] [INFO] [logger.py:34] ============================================================
+[11:34:10] [INFO] [logger.py:35] 日志系统初始化完成，日志文件: e:\coding-zhou\Python\定时休息\logs\app_20260516_113410.log
+[11:34:10] [INFO] [logger.py:36] Python 版本: 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]
+[11:34:10] [INFO] [logger.py:37] 系统平台: win32
+[11:34:10] [INFO] [logger.py:38] ============================================================
+[11:34:10] [INFO] [main.py:9] 应用启动
+[11:34:10] [INFO] [app.py:91] 初始化App...
+[11:34:10] [INFO] [app.py:118] 读取设置: 工作=1分钟, 休息=5分钟
+[11:34:10] [DEBUG] [app.py:128] 连接信号...
+[11:34:10] [DEBUG] [app.py:139] 信号连接完成
+[11:34:10] [DEBUG] [app.py:64] 会话监控已启动
+[11:34:10] [INFO] [app.py:109] 显示倒计时窗口
+[11:34:10] [INFO] [main.py:11] 进入主事件循环
+[11:34:10] [DEBUG] [app.py:174] 显示设置对话框
+[11:34:15] [DEBUG] [app.py:179] 设置被用户接受
+[11:34:15] [INFO] [app.py:123] 保存设置: 工作=1分钟, 休息=5分钟
+[11:34:16] [INFO] [app.py:153] 用户点击开始
+[11:34:16] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:35:16] [INFO] [app.py:168] 用户点击停止
+[11:35:16] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:35:17] [INFO] [app.py:168] 用户点击停止
+[11:35:18] [INFO] [app.py:153] 用户点击开始
+[11:35:18] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:35:19] [INFO] [app.py:168] 用户点击停止
+[11:35:19] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:35:20] [INFO] [app.py:153] 用户点击开始
+[11:35:20] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:35:21] [INFO] [app.py:168] 用户点击停止
+[11:35:21] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:35:21] [INFO] [app.py:153] 用户点击开始
+[11:35:21] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:35:22] [INFO] [app.py:168] 用户点击停止
+[11:35:22] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:36:33] [DEBUG] [app.py:174] 显示设置对话框
+[11:36:39] [DEBUG] [app.py:179] 设置被用户接受
+[11:36:39] [INFO] [app.py:123] 保存设置: 工作=1分钟, 休息=1分钟
+[11:36:41] [INFO] [app.py:153] 用户点击开始
+[11:36:41] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:37:41] [INFO] [app.py:185] 工作时间结束
+[11:37:41] [INFO] [app.py:84] 调用Windows API锁定屏幕
+[11:37:43] [INFO] [app.py:142] 状态改变: TimerState.LOCKED
+[11:38:14] [INFO] [app.py:168] 用户点击停止
+[11:38:14] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:38:14] [INFO] [app.py:153] 用户点击开始
+[11:38:14] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:38:17] [DEBUG] [app.py:174] 显示设置对话框
+[11:38:33] [DEBUG] [app.py:174] 显示设置对话框
+[11:38:39] [DEBUG] [app.py:179] 设置被用户接受
+[11:38:39] [INFO] [app.py:123] 保存设置: 工作=20分钟, 休息=1分钟
+[11:38:40] [DEBUG] [app.py:174] 显示设置对话框
+[11:38:42] [DEBUG] [app.py:179] 设置被用户接受
+[11:38:42] [INFO] [app.py:123] 保存设置: 工作=20分钟, 休息=5分钟
+[11:38:43] [INFO] [app.py:163] 用户点击暂停
+[11:38:43] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[11:38:43] [INFO] [app.py:153] 用户点击开始
+[11:38:43] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[11:58:43] [INFO] [app.py:185] 工作时间结束
+[11:58:43] [INFO] [app.py:84] 调用Windows API锁定屏幕
+[11:58:45] [INFO] [app.py:142] 状态改变: TimerState.LOCKED
+[12:03:45] [INFO] [app.py:142] 状态改变: TimerState.BREAK_DONE
+[12:03:45] [INFO] [app.py:191] 休息时间结束
+[12:03:54] [INFO] [app.py:163] 用户点击暂停
+[12:03:55] [INFO] [app.py:153] 用户点击开始
+[12:03:56] [DEBUG] [app.py:174] 显示设置对话框
+[12:03:57] [DEBUG] [app.py:179] 设置被用户接受
+[12:03:57] [INFO] [app.py:123] 保存设置: 工作=20分钟, 休息=5分钟
+[12:03:58] [INFO] [app.py:168] 用户点击停止
+[12:03:58] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[12:04:00] [INFO] [app.py:153] 用户点击开始
+[12:04:00] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[12:04:01] [INFO] [app.py:163] 用户点击暂停
+[12:04:01] [INFO] [app.py:142] 状态改变: TimerState.IDLE
+[12:11:10] [INFO] [app.py:153] 用户点击开始
+[12:11:10] [INFO] [app.py:142] 状态改变: TimerState.WORKING
+[12:29:45] [INFO] [app.py:163] 用户点击暂停
+[12:29:45] [INFO] [app.py:142] 状态改变: TimerState.IDLE

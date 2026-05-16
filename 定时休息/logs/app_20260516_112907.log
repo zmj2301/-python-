@@ -1,0 +1,33 @@
+[11:29:07] [INFO] [logger.py:34] ============================================================
+[11:29:07] [INFO] [logger.py:35] 日志系统初始化完成，日志文件: e:\coding-zhou\Python\定时休息\logs\app_20260516_112907.log
+[11:29:07] [INFO] [logger.py:36] Python 版本: 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]
+[11:29:07] [INFO] [logger.py:37] 系统平台: win32
+[11:29:07] [INFO] [logger.py:38] ============================================================
+[11:29:07] [INFO] [main.py:9] 应用启动
+[11:29:07] [INFO] [app.py:25] 初始化App...
+[11:29:07] [INFO] [app.py:47] 读取设置: 工作=20分钟, 休息=5分钟
+[11:29:07] [DEBUG] [app.py:57] 连接信号...
+[11:29:07] [DEBUG] [app.py:68] 信号连接完成
+[11:29:07] [INFO] [app.py:38] 显示倒计时窗口
+[11:29:07] [INFO] [main.py:11] 进入主事件循环
+[11:29:14] [INFO] [app.py:82] 用户点击开始
+[11:29:14] [INFO] [app.py:71] 状态改变: TimerState.WORKING
+[11:29:17] [DEBUG] [app.py:103] 显示设置对话框
+[11:29:24] [DEBUG] [app.py:108] 设置被用户接受
+[11:29:24] [INFO] [app.py:52] 保存设置: 工作=1分钟, 休息=5分钟
+[11:29:28] [INFO] [app.py:97] 用户点击停止
+[11:29:28] [INFO] [app.py:71] 状态改变: TimerState.IDLE
+[11:29:30] [DEBUG] [app.py:103] 显示设置对话框
+[11:29:31] [DEBUG] [app.py:108] 设置被用户接受
+[11:29:31] [INFO] [app.py:52] 保存设置: 工作=1分钟, 休息=5分钟
+[11:29:33] [DEBUG] [app.py:103] 显示设置对话框
+[11:29:35] [DEBUG] [app.py:108] 设置被用户接受
+[11:29:35] [INFO] [app.py:52] 保存设置: 工作=1分钟, 休息=5分钟
+[11:29:36] [INFO] [app.py:82] 用户点击开始
+[11:29:36] [INFO] [app.py:71] 状态改变: TimerState.WORKING
+[11:30:36] [INFO] [app.py:114] 工作时间结束
+[11:30:36] [INFO] [app.py:18] 调用Windows API锁定屏幕
+[11:30:38] [INFO] [app.py:71] 状态改变: TimerState.LOCKED
+[11:30:43] [INFO] [app.py:92] 用户点击暂停
+[11:32:55] [INFO] [app.py:97] 用户点击停止
+[11:32:55] [INFO] [app.py:71] 状态改变: TimerState.IDLE
